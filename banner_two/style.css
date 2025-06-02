@@ -35,6 +35,7 @@
 }
 
 .div-text-box-two {
+    /* Div-Config */
     font-family: 'mulish';
     color: #fff;
     display: flex;
@@ -42,36 +43,45 @@
 }
 
 .div-text-box-two p {
+    /* Text */
     font-size: 22px;
     font-weight: 500;
+    /* Margin */
     margin-top: 75px;
     margin-right: 35px;
+    /* User */
     user-select: none;
 }   
 
 .div-text-sub-box-two {
+    /* Div-Config */
     display: flex;
     flex-direction: row;
-
 }
 
 .seta {
+    /* User */
     user-select: none;
 }
 
 .line {
+    /* Size */
     width: 190px;
     height: 190px;
+    /* Transform */
     transform: rotate(-3deg) translate(-55%, -25%) scale(1,0.5);
 }
 .arrow{
+    /* Size */
     width: 20px;
     height: 35px;
+    /* Transform */
     transform: translate(-405%, -202%);
 }
 
 
 .box-logo-button{
+    /* Div-Config */
     display: flex;
     flex-direction: column;
 }
@@ -79,17 +89,21 @@
 
 
 .logo {
+    /* Div-Config */
     display: flex;
     flex-direction: row;
 }
 
 .logo p{
+    /* Size */
     font-size: 16px;
 }
 
 .logo img {
+    /* Size */
     width: 25px;
     height: 25px;
+    /* Position */
     position: relative;
     top: 70px;
     right: 4px;
@@ -99,8 +113,11 @@
     /*Text*/
     font-family: "Mulish";
     font-size: 15px;
+    /* Position */
     position: relative;
     top: -75px;
+    /* Border */
     border: 1px solid #fff;
+    /* Padding */
     padding: 10px 10px;
 }
