@@ -1,0 +1,106 @@
+.div-father {
+    /* Background */
+    background-image: url(file/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20px;
+    /* Size */
+    width: 1440px;
+    height: 420px;
+    /* Display */
+    display: flex;
+    flex-direction: row;
+}
+
+.div-text-box-one {
+    /* Margin */
+    margin-left: 35px;
+    margin-right: 800px;
+    /* Display */
+    display: flex;
+    flex-direction: column-reverse;
+    /* User */
+    user-select: none;
+}
+
+.div-text-box-one h1{
+    /* Text */
+    font-family: 'darker grotesque';
+    font-size:42px;
+    color: #fff;
+    font-weight: 800;
+    /* Spacing */
+    line-height: 125%;
+    letter-spacing: 1%;
+}
+
+.div-text-box-two {
+    font-family: 'mulish';
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-text-box-two p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 75px;
+    margin-right: 35px;
+    user-select: none;
+}   
+
+.div-text-sub-box-two {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.seta {
+    user-select: none;
+}
+
+.line {
+    width: 190px;
+    height: 190px;
+    transform: rotate(-3deg) translate(-55%, -25%) scale(1,0.5);
+}
+.arrow{
+    width: 20px;
+    height: 35px;
+    transform: translate(-405%, -202%);
+}
+
+
+.box-logo-button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo p{
+    font-size: 16px;
+}
+
+.logo img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 70px;
+    right: 4px;
+}
+
+#button {
+    /*Text*/
+    font-family: "Mulish";
+    font-size: 15px;
+    position: relative;
+    top: -75px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+}
