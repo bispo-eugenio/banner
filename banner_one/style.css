@@ -43,6 +43,11 @@ body {
     left: 100px;
     display: flex; 
     flex-direction: row;
+    margin-right: -65px;
+}
+
+.box-img  img{
+    margin-right: -75px;
 }
 
 .img-woman {
