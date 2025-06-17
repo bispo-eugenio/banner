@@ -1,0 +1,91 @@
+*{
+    /* outline: 1px solid #ff000f; */
+}
+/*Caixa Principal*/
+.container-father{
+    width: 1440px;
+    height: 430px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-line {
+    height: 264px;
+    font-size: 20px;
+    font-weight: 264;
+    border: 1px solid;
+    display: flex;
+    align-self: center;
+}
+
+.container-father-box {
+    width: 555px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+.main-img{
+    width: 447px;
+    height: 559px;
+    align-self: center;
+}
+
+/*Caixa de Informação*/
+.box-information {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.tittle {
+    font-family: "Bebas Neue", sans-serif;
+    color: #C39E93;
+    font-size: 64px;
+    font-weight: 400;
+}
+.text {
+    font-family: "Mulish", sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*Caixa Imagem*/
+.box-img {
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-self: center;
+}
+
+.line {
+    position: relative;
+    top: 10px;
+    height: 50px;
+    width: 0px;
+    border-style: solid;
+    border-width: 0.5px;
+    color: #000;
+}
+
+.box-img-text {
+    font-family: "Mulish", sans-serif;
+    color: #4E4E4E;
+    font-weight: 600;
+    font-size: 20px;
+    align-self: center;
+}
+
+.button-learn-more {
+    display: flex;
+    
+}
